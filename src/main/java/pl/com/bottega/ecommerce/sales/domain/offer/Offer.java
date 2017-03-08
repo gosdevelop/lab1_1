@@ -65,7 +65,6 @@ public class Offer {
 			if (!sameItem.sameAs(item, delta))
 				return false;
 		}
-		
 		return true;
 	}
 

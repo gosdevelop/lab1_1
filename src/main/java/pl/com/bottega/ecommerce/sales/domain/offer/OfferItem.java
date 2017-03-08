@@ -16,7 +16,6 @@
 package pl.com.bottega.ecommerce.sales.domain.offer;
 
 import java.math.BigDecimal;
-import java.util.Date;
 
 public class OfferItem {
 
@@ -39,7 +38,6 @@ public class OfferItem {
 	public OfferItem(Product product, int quantity,
 			Discount discount) {
 		this.product = product;
-		
 		this.quantity = quantity;
 		this.discount = discount;
 

@@ -4,16 +4,12 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class Product {
+	
 	private String productId;
-
 	private BigDecimal productPrice;
-
 	private String productName;
-
 	private Date productSnapshotDate;
-
 	private String productType;
-
 
 	public String getProductId() {
 		return productId;
